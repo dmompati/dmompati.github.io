@@ -1,0 +1,223 @@
+
+body{
+    background-color: #F2F2F2;
+    border:solid 10px #25798C;
+    margin: 0;
+    padding: 2em;
+
+}
+
+h1, h2, h3, a {
+    font-family: 'Reenie Beanie', cursive;
+}
+
+h1{
+    text-align: center;
+    font-size: 80px;
+    font-weight: normal;
+}
+
+.nav-item a{
+    text-decoration: none;
+    font-family: 'Reenie Beanie', cursive;
+    color: black;
+    font-size: 40px;
+   
+
+}
+ nav ul{
+     list-style: none;
+     display: flex;
+     flex-flow: row wrap;
+    justify-content: space-around;
+ }
+
+ .nav-item .active{
+    border-bottom: 4px solid #25798C;
+ }
+
+ .filled-circle{
+     background-color: #25798C;
+     border-radius:50%;
+     width:50px;
+     height: 50px;
+     margin-left: 5%;
+ }
+
+ .circle{
+    border: solid 1px #25798C;
+    border-radius:50%;
+    width:50px;
+    height: 50px;
+    margin-left: 5%;
+}
+
+
+ .outer-layer{
+     background-color: #D86136;
+     height: 100%;
+     width:70%;
+     margin-left: 10%;
+ }
+.inner-layer{
+    background-color:#F2F2F2;
+    height: 100%;
+    position: relative;
+    top: 15px;
+    left: 15px;
+    border: solid 1px #D86136;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 1em;
+
+}
+
+
+.outer-layer2{
+    background-color: #D86136;
+    height: 100%;
+    width:70%;
+    margin-left: 30%;
+}
+.inner-layer2{
+   background-color:#F2F2F2;
+   height: 100%;
+   position: relative;
+   top: 15px;
+   right: 15px;
+   border: solid 1px #D86136;
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: space-around;
+
+}
+
+.project-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    margin-top: 5em;
+}
+
+.work{
+    width: 80%;
+
+    
+}
+
+
+.left-content{
+    width: 47%;
+    height: 200px;
+}
+
+
+
+.right-content{
+    width: 35%;
+}
+
+.about-link{
+width: 50px;
+height:50px;
+background-color: #25798C;
+border-radius: 50%;
+list-style: none;
+margin-left: 3em;
+margin-right: 3em;
+
+}
+
+.about-links{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 5em;
+}
+
+.outer{
+    background-color: #D86136;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    position: relative;
+    top: 3em;
+    margin-bottom: 10em;
+    margin-top: 4em;
+}
+
+.inner{
+    background-color: #F2F2F2;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 15px;
+    left: 15px;
+    border: solid 1px #D86136;
+}
+
+.bio{
+    text-align: center;
+    width: 700px;
+    margin: 0 auto;
+font-family: 'Barlow', sans-serif;
+}
+
+.contactform{
+    max-width: 700px;
+    margin: auto;
+    padding: 50px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+
+
+  .nav-link{
+    display: inline;
+    color: black;
+}
+
+@media only screen and (max-width: 992px) {
+    .outer-layer, .outer-layer2 {
+      margin: 0 auto;
+    }
+    .heading{
+        display: none;
+    }
+  }
+
+  @media only screen and (min-width: 993px) {
+
+    .navbar-brand{
+        display: none;
+    }
+  }
+  
+ 
+.branding{
+    font-size: 3rem;
+    text-align: center;
+} 
+
+.mywork{
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 4rem;
+    
+}
+
+.submit{
+    background-color: #D86136;
+    border-color:#D86136;
+    width:100%;
+
+}
+
+label{
+    font-family: 'Barlow', sans-serif
+};
