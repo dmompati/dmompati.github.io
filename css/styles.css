@@ -187,10 +187,34 @@ h1,h2,h3,h4{
 }
 
 @media only screen and (max-width: 992px) {
-    h1 {
-      font-size: 1.8rem;
+
+    .navbar-brand h1, .navbar-brand h2{
+        display: none;
     }
-    h2{
-        font-size: 1.5rem;
+    .navbar-brand h3{
+        font-size: 1.6rem;
+        position: relative;
+        top: -13px;
+        text-align: center;
+    }
+    .navbar-brand img{
+        width:20px;
+        margin-top: -10px;
+        top: -10px;
+        position: relative;
+    }
+    nav{
+        border-bottom: solid 1px lightgrey;
+    }
+    .left-side{
+        top:32px;
+        height: 93vh;
+        margin-bottom: 0;
+    }
+  }
+
+  @media only screen and (min-width: 992px) {
+    .navbar-brand h3{
+        display: none;
     }
   }
